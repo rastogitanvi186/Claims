@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Claim Request" max_length="40" name="x_540382_claims_claim_request" sizeclass="0" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Claim Description" max_length="40" name="claim_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Claim Policy Number" max_length="40" name="claim_policy_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Claim Status" max_length="40" name="claim_status" type="choice">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Claim Type" max_length="40" name="claim_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+    </element>
+</database>
